@@ -1,0 +1,12 @@
+# Ignorar archivos de compilación de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar entornos virtuales
+venv/
+.env/
+
+# Ignorar archivos de pruebas o configuraciones locales
+*.log
+*.sqlite3
+.DS_Store
