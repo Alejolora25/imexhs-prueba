@@ -1,0 +1,6 @@
+Resumen estadístico de columnas numéricas:
+Age: Promedio = 31.08, Desviación estándar = 7.41
+Weight: Promedio = 75.96, Desviación estándar = 4.49
+Height: Promedio = 169.60, Desviación estándar = 4.82
+Cholesterol: Promedio = 198.56, Desviación estándar = 8.65
+HeartRate: Promedio = 87.60, Desviación estándar = 16.14

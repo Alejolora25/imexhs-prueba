@@ -107,4 +107,4 @@ Este proyecto no tiene dependencias externas. Solo requiere:
 
 **Jesús Alejandro Lora Tovar**  
 Desarrollador backend especializado en Java, Spring Boot, Python y arquitectura limpia.  
-Contacto: [Tu correo] – GitHub: [Tu usuario]
+Contacto: [alejandroloratovar@outlook.com] – GitHub: [(https://github.com/Alejolora25/)]
