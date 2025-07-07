@@ -52,9 +52,12 @@ La app se abrirá en tu navegador en:
 
 | Cargar Imagen y Ver Resultados | Metodología Interactiva |
 |-------------------------------|--------------------------|
-| ![Imagen](https://via.placeholder.com/400x200?text=Preview) | ![Imagen](https://via.placeholder.com/400x200?text=Step-by-step) |
+| ![image](https://github.com/user-attachments/assets/8a9b959f-82e2-44fc-9184-0e09fcb28066) | ![image](https://github.com/user-attachments/assets/114bf6f1-2424-431b-ace4-7fdfee066af1)
+ |
 
 ---
+
+
 
 ## ✅ Funcionalidades
 
