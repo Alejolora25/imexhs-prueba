@@ -1,0 +1,25 @@
+<mat-tab-group>
+  <mat-tab label="Calcular Área">
+    <div class="p-4">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Columna izquierda: Imagen -->
+          <div class="col-md-5">
+            <app-image-upload></app-image-upload>
+          </div>
+
+          <!-- Columna derecha: Resultados -->
+          <div class="col-md-7">
+            <app-area-result-table></app-area-result-table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+
+  <mat-tab label="Metodología">
+    <div class="p-4">
+      <app-method-carousel></app-method-carousel>
+    </div>
+  </mat-tab>
+</mat-tab-group>

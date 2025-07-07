@@ -1,0 +1,46 @@
+<mat-horizontal-stepper #stepper>
+  <mat-step>
+    <ng-template matStepLabel>Paso 1: Cargar Imagen</ng-template>
+    <mat-card>
+      <p>Sube una imagen binaria donde la mancha esté en blanco y el fondo en negro.</p>
+    </mat-card>
+    <div class="mt-4">
+      <button mat-raised-button color="primary" (click)="stepper.next()">Siguiente</button>
+    </div>
+  </mat-step>
+
+  <mat-step>
+    <ng-template matStepLabel>Paso 2: Generar Puntos</ng-template>
+    <mat-card>
+      <p>Genera <strong>n</strong> puntos aleatorios dentro del área de la imagen.</p>
+    </mat-card>
+    <div class="mt-4">
+      <button mat-button (click)="stepper.previous()">Anterior</button>
+      <button mat-raised-button color="primary" (click)="stepper.next()">Siguiente</button>
+    </div>
+  </mat-step>
+
+  <mat-step>
+    <ng-template matStepLabel>Paso 3: Contar dentro de la Mancha</ng-template>
+    <mat-card>
+      <p>Cuenta cuántos puntos caen en la mancha (pixeles blancos). Esto será <strong>ni</strong>.</p>
+    </mat-card>
+    <div class="mt-4">
+      <button mat-button (click)="stepper.previous()">Anterior</button>
+      <button mat-raised-button color="primary" (click)="stepper.next()">Siguiente</button>
+    </div>
+  </mat-step>
+
+  <mat-step>
+    <ng-template matStepLabel>Paso 4: Calcular Área</ng-template>
+    <mat-card>
+      <p>Calcula el área como:  
+        <code>Área = Ancho × Alto × (ni / n)</code>
+      </p>
+    </mat-card>
+    <div class="mt-4">
+      <button mat-button (click)="stepper.previous()">Anterior</button>
+      <button mat-raised-button color="accent" (click)="stepper.reset()">Reiniciar</button>
+    </div>
+  </mat-step>
+</mat-horizontal-stepper>
